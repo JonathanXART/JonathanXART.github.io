@@ -1,0 +1,88 @@
+@font-face {
+    font-family: 'Blocktopia'; /* Choose a name for your font */
+    src: url('Blocktopia.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+  }
+
+
+body{ 
+  font-family: 'Blocktopia', sans-serif;
+  font-size: 30pt;
+  text-align: center;
+  background-color: black;
+  color:white;
+}
+
+.caption{ 
+  position: absolute;
+            bottom: 70%; /* Adjust this value to position the caption as per your preference */
+            right: 10%; /* Adjust this value to position the caption as per your preference */
+            color: white; /* Adjust the text color */
+            font-size: 20px; /* Adjust the font size */
+}
+
+a{ 
+  color: white;
+}
+
+a:hover{ 
+  color: red;
+}
+
+.nft{ 
+  position: absolute;
+  bottom: 40%;
+  right: 1.5%;
+  height: 30%;
+}
+
+.sax{ 
+  position: absolute;
+  right: 90%;
+  height: 50%;
+}
+.button1 {
+  position: absolute;
+  bottom: 30%;
+  right: 10%;
+}
+
+.button2 {
+  position: absolute;
+  bottom: 30%;
+  right: 2%;
+}
+
+img{ 
+  height: 100px;
+  float: right;
+  margin-right: 180px; /* Optional: Add some margin between the paragraph and the image */
+}
+
+video{
+  position: absolute;
+  left: 0%;
+  top: 25%;
+  margin-right: 200px;
+}
+
+h1,img,video{ 
+  vertical-align: top; /* A djust the vertical alignment as needed */
+  display: inline-block;
+}
+
+.flex-container {
+    display: flex; /* Use flex container */
+    align-items: center; /* Align items vertically in the center */
+  }
+  
+
+
+.copyrights{ 
+  margin-top: 110px; /* Adjust the value to your preference */
+}
+
+p{ 
+  color: aliceblue;
+}
