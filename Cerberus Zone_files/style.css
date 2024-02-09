@@ -1,0 +1,1128 @@
+@font-face {
+  font-family: 'Blocktopia'; /* Choose a name for your font */
+  src: url('Blocktopia.ttf') format('truetype');
+  font-weight: lighter;
+  font-style: normal;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box; }
+
+html {
+  scroll-behavior: smooth; }
+
+.section {
+  overflow-y: hidden; }
+
+#main main .container .section-wrap .main-all-content .main-section-header h1 {
+  font-family: "Blocktopia", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: white; }
+  #main main .container .section-wrap .main-all-content .main-section-header h1 {
+    font-size: 32px; }
+    @media screen and (min-width: 320px) {
+      #main main .container .section-wrap .main-all-content .main-section-header h1 {
+        font-size: calc( 32px + 28 * ( (100vw - 320px) / 880 ) ); } }
+    @media screen and (min-width: 1200px) {
+      #main main .container .section-wrap .main-all-content .main-section-header h1 {
+        font-size: 60px; } }
+
+#main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+  font-family: "Blocktopia", sans-serif;
+  ;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 140%;
+  color: #ffffff; }
+  #main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+    font-size: 17px; }
+    @media screen and (min-width: 320px) {
+      #main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+        font-size: calc( 17px + 7 * ( (100vw - 320px) / 880 ) ); } }
+    @media screen and (min-width: 1200px) {
+      #main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+        font-size: 24px; } }
+
+header .nav-wrap .nav .nav-item a p {
+  font-family: "Blocktopia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 18px;
+  text-transform: capitalize;
+  color: white; }
+  header .nav-wrap .nav .nav-item a p {
+    font-size: 14px; }
+    @media screen and (min-width: 320px) {
+      header .nav-wrap .nav .nav-item a p {
+        font-size: calc( 14px + 2 * ( (100vw - 320px) / 880 ) ); } }
+    @media screen and (min-width: 1200px) {
+      header .nav-wrap .nav .nav-item a p {
+        font-size: 16px; } }
+
+h2.section-title {
+  font-family: "Blocktopia", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 110%;
+  /* identical to box height, or 53px */
+  text-transform: uppercase;
+  color: white; }
+  h2.section-title {
+    font-size: 25px; }
+    @media screen and (min-width: 320px) {
+      h2.section-title {
+        font-size: calc( 25px + 23 * ( (100vw - 320px) / 880 ) ); } }
+    @media screen and (min-width: 1200px) {
+      h2.section-title {
+        font-size: 48px; } }
+
+#about-cerberus .container .content-wrap .contents .para {
+  font-family: "Blocktopia", sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 140%;
+  color: white; }
+  @media only screen and (min-width: 576px) {
+    #about-cerberus .container .content-wrap .contents .para {
+      font-size: 18px; } }
+  @media only screen and (min-width: 768px) {
+    #about-cerberus .container .content-wrap .contents .para {
+      font-size: 20px; } }
+
+@media only screen and (min-width: 576px) {
+  .container {
+    max-width: 540px; } }
+
+@media only screen and (min-width: 768px) {
+  .container {
+    max-width: 720px; } }
+
+@media only screen and (min-width: 992px) {
+  .container {
+    max-width: 960px; } }
+
+@media only screen and (min-width: 1200px) {
+  .container {
+    max-width: 1140px; } }
+
+@media only screen and (min-width: 1400px) {
+  .container {
+    max-width: 1320px; } }
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px; }
+  @media only screen and (min-width: 576px) {
+    .container {
+      margin-left: auto;
+      margin-right: auto;
+      padding-left: 0px;
+      padding-right: 0px; } }
+
+img {
+  width: 100%; }
+
+body {
+  overflow-x: hidden;
+  background-color: #000000; }
+
+.btn-fill, .btn-outline {
+  font-family: "Ubuntu", sans-serif;
+  min-width: 151px;
+  padding: 11px 41px;
+  border-radius: 15px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18px;
+  text-align: center;
+  text-transform: uppercase;
+  text-decoration: none;
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
+  /* black */
+  color: #000000; }
+  .btn-fill svg, .btn-outline svg {
+    margin-right: 5px;
+    width: 22px; }
+
+.btn-fill {
+  position: relative;
+  z-index: 430;
+  overflow: hidden;
+  height: 44px; }
+  .btn-fill:focus:after {
+    background-color: #f1e263; }
+  .btn-fill:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: white;
+    border-radius: 15px;
+    z-index: -2; }
+  .btn-fill:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    background-color: #e8c406;
+    transition: all 0.3s;
+    border-radius: 15px;
+    z-index: -1; }
+  .btn-fill:hover {
+    color: black; }
+    .btn-fill:hover:before {
+      width: 100%; }
+
+.btn-outline {
+  padding: 2px 20px;
+  background-color: transparent;
+  color: white;
+  font-weight: 500;
+  font-style: normal;
+  border: 2px solid white;
+  text-transform: none;
+  transition: all 0.3s; }
+  .btn-outline:hover {
+    border-color: #ffd600;
+    color: #ffd600; }
+    .btn-outline:hover span img {
+      filter: blur(1.5px); }
+  .btn-outline:focus:after {
+    background-color: transparent; }
+  .btn-outline:after {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    border-radius: 15px;
+    z-index: -2; }
+  .btn-outline:before {
+    content: "";
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0%;
+    height: 100%;
+    transition: all 0.3s;
+    border-radius: 15px;
+    z-index: -1; }
+  .btn-outline span {
+    padding-right: 7px; }
+    .btn-outline span img {
+      position: relative;
+      top: 1.5px; }
+
+#main img {
+  width: initial; }
+
+.btn-wrap {
+  text-align: center; }
+
+.full-container {
+  position: relative; }
+  .full-container #spark-animation {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 80%; }
+    @media only screen and (min-width: 1200px) {
+      .full-container #spark-animation {
+        height: 85%; } }
+    .full-container #spark-animation svg {
+      display: block;
+      padding-top: 20px;
+      width: 100%;
+      margin-left: auto;
+      margin-right: auto; }
+      @media only screen and (min-width: 576px) {
+        .full-container #spark-animation svg {
+          width: 90%; } }
+      @media only screen and (min-width: 1200px) {
+        .full-container #spark-animation svg {
+          height: 100%; } }
+
+#main {
+  background: transparent url("/web/20230108175034im_/https://www.cerberus.zone/img/main-section/main-sec-bg.jpg") no-repeat center center;
+  background-size: 100% 100%;
+  min-height: 100vh;
+  height: 100%;
+  position: relative; }
+  @media only screen and (min-width: 1200px) {
+    #main {
+      background-image: url("/web/20230108175034im_/https://www.cerberus.zone/img/main-section/main-xl-bg.png");
+      overflow-x: hidden;
+      display: flex;
+      position: relative;
+      align-items: center;
+      justify-content: center; } }
+  #main #top-right,
+  #main #top-left,
+  #main #bottom-left,
+  #main #bottom-right {
+    display: none; }
+    @media only screen and (min-width: 1200px) {
+      #main #top-right,
+      #main #top-left,
+      #main #bottom-left,
+      #main #bottom-right {
+        display: block;
+        position: absolute; } }
+  #main #top-right {
+    right: 0;
+    top: 0; }
+  #main #top-left {
+    left: 0;
+    top: 0; }
+  #main #bottom-right {
+    bottom: 0;
+    right: 0; }
+  #main #bottom-left {
+    bottom: 0;
+    left: 0;
+    width: 100%; }
+  header {
+    z-index: 1000;
+    position: absolute;
+    left: 0;
+    width: 100%;
+    padding-top: 15px;
+    transition: padding 0.5s;
+    /**********BUTTON MOBILE NAVIGATION********/
+    /* back animation */
+    /**********END BUTTON MOBILE NAVIGATION********/ }
+    @media only screen and (min-width: 992px) {
+      header {
+        padding-top: 30px; } }
+    header .container {
+      display: flex;
+      flex-wrap: wrap;
+      align-items: center;
+      justify-content: space-between; }
+    header .logo {
+      text-align: left;
+      width: 80%;
+      display: flex;
+      flex-flow: row wrap;
+      align-items: center; }
+      @media only screen and (min-width: 1200px) {
+        header .logo {
+          width: 255px; } }
+      header .logo img {
+        max-width: 225px; }
+        @media only screen and (min-width: 1200px) {
+          header .logo img {
+            max-width: 256px;
+            transform: translateX(-5px); } }
+        @media only screen and (min-width: 1400px) {
+          header .logo img {
+            margin-top: 10px; } }
+    header .resp-nav-btn {
+      display: flex;
+      transition: all 0.5s;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      cursor: pointer;
+      width: 35px;
+      height: 26px; }
+      @media only screen and (min-width: 1200px) {
+        header .resp-nav-btn {
+          display: none; } }
+      header .resp-nav-btn:hover .bar1, header .resp-nav-btn:hover .bar2, header .resp-nav-btn:hover .bar3 {
+        transition: all 0.5s;
+        background-color: #ffd600; }
+    header .bar1, header .bar2, header .bar3 {
+      width: 35px;
+      height: 25px;
+      background-color: #fff;
+      border-radius: 3px;
+      box-shadow: 0 2px 10px 0 rgba(0, 0, 0, 0.3); }
+    header .bar1.close {
+      animation: line1x .8s ease 0s 1 normal forwards; }
+    header .bar2.close {
+      animation: line2x .9s ease 0s 1 normal forwards; }
+    header .bar3.close {
+      animation: line3x .8s ease 0s 1 normal forwards; }
+@keyframes line3x {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(-20px) rotate(135deg); } }
+@keyframes line1x {
+  0% {
+    transform: translateY(0); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: translateY(4px) rotate(45deg); } }
+@keyframes line2x {
+  0% {
+    opacity: 1;
+    transform: scale(1); }
+  100% {
+    opacity: 0;
+    transform: scale(0.6); } }
+    header .bar1.rev {
+      animation: line1rev 1s ease 0s 1 normal forwards; }
+    header .bar2.rev {
+      animation: line2rev 0.8s ease 0s 1 normal forwards; }
+    header .bar3.rev {
+      animation: line3rev 1s ease 0s 1 normal forwards; }
+@keyframes line1rev {
+  0% {
+    transform: translateY(20px) rotate(45deg); }
+  50% {
+    transform: translateY(20px); }
+  100% {
+    transform: rotate(0deg) translateY(0px); } }
+@keyframes line3rev {
+  0% {
+    transform: translateY(-20px) rotate(135deg); }
+  50% {
+    transform: translateY(-20px); }
+  100% {
+    transform: translateY(0px) rotate(0deg); } }
+@keyframes line2rev {
+  0% {
+    transform: scale(0); }
+  100% {
+    transform: scale(1); } }
+    header .nav-wrap {
+      width: 100%;
+      position: relative;
+      display: flex;
+      justify-content: flex-end;
+      height: 0px;
+      overflow: hidden;
+      transition: height 0.5s; }
+      @media only screen and (min-width: 1200px) {
+        header .nav-wrap {
+          flex-flow: row wrap;
+          justify-content: space-between;
+          height: initial;
+          width: 72%;
+          height: 70px;
+          transform: translateX(30px); } }
+      @media only screen and (min-width: 1400px) {
+        header .nav-wrap {
+          width: initial; } }
+      header .nav-wrap .nav ul,
+      header .nav-wrap .social-bar ul {
+        display: flex;
+        list-style: none; }
+      header .nav-wrap .nav {
+        order: 2;
+        background-color: #a41115;
+        border-radius: 25px;
+        padding: 25px 35px;
+        display: flex;
+        flex-flow: column wrap;
+        width: 100%;
+        max-width: 400px;
+        height: 290px;
+        justify-content: space-between; }
+        @media only screen and (min-width: 1200px) {
+          header .nav-wrap .nav {
+            height: initial;
+            width: 100%;
+            max-width: initial;
+            position: initial;
+            background-color: transparent;
+            padding: 0;
+            flex-flow: row wrap;
+            margin-top: 0px;
+            justify-content: space-between;
+            align-items: center; } }
+        header .nav-wrap .nav ul {
+          display: flex;
+          flex-flow: column wrap;
+          order: 2; }
+          @media only screen and (min-width: 1200px) {
+            header .nav-wrap .nav ul {
+              flex-flow: row wrap;
+              column-gap: 30px; } }
+          @media only screen and (min-width: 1400px) {
+            header .nav-wrap .nav ul {
+              column-gap: 40px;
+              margin-right: 50px; } }
+        header .nav-wrap .nav .nav-item {
+          padding-top: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid rgba(255, 255, 255, 0.532); }
+          header .nav-wrap .nav .nav-item:last-child {
+            border-bottom: 0px solid white; }
+          @media only screen and (min-width: 1200px) {
+            header .nav-wrap .nav .nav-item {
+              border: none;
+              padding-bottom: 0px;
+              padding-top: 0px; } }
+          header .nav-wrap .nav .nav-item a {
+            display: flex;
+            text-decoration: none;
+            align-items: center; }
+            header .nav-wrap .nav .nav-item a svg {
+              width: 20px;
+              height: 20px;
+              margin-right: 15px; }
+              @media only screen and (min-width: 1200px) {
+                header .nav-wrap .nav .nav-item a svg {
+                  width: 14px;
+                  height: 14px;
+                  margin-right: 5px; } }
+            header .nav-wrap .nav .nav-item a:hover p {
+              color: #ffd600; }
+            header .nav-wrap .nav .nav-item a:hover svg path {
+              fill: #ffd600; }
+        header .nav-wrap .nav .nav-item.active p {
+          color: #ffd600; }
+        header .nav-wrap .nav .nav-item.active svg path {
+          fill: #ffd600; }
+      header .nav-wrap .social-bar {
+        order: 1;
+        width: 100%;
+        max-width: 350px;
+        margin-left: auto;
+        margin-right: auto; }
+        @media only screen and (min-width: 1200px) {
+          header .nav-wrap .social-bar {
+            width: initial;
+            max-width: initial;
+            order: 3;
+            margin-left: initial;
+            margin-right: initial; } }
+        header .nav-wrap .social-bar ul {
+          column-gap: 10px;
+          justify-content: space-between;
+          flex-flow: row wrap;
+          order: 1; }
+          @media only screen and (min-width: 1200px) {
+            header .nav-wrap .social-bar ul {
+              width: 100%;
+              padding-left: 30px;
+              padding-right: 30px;
+              height: 50px;
+              align-items: center; } }
+          @media only screen and (min-width: 1400px) {
+            header .nav-wrap .social-bar ul {
+              column-gap: 20px; } }
+          header .nav-wrap .social-bar ul li {
+            flex: 1; }
+            header .nav-wrap .social-bar ul li a {
+              display: block;
+              text-decoration: none;
+              display: flex;
+              flex-flow: column wrap;
+              justify-content: center;
+              align-items: center; }
+              @media only screen and (min-width: 1200px) {
+                header .nav-wrap .social-bar ul li a {
+                  position: relative; } }
+              header .nav-wrap .social-bar ul li a svg {
+                width: 24px;
+                height: 24px; }
+                header .nav-wrap .social-bar ul li a svg path {
+                  transition: all 0.5s; }
+              header .nav-wrap .social-bar ul li a span {
+                font-family: "Ubuntu", sans-serif;
+                font-style: normal;
+                font-weight: 400;
+                font-size: 0px;
+                text-align: center;
+                text-transform: capitalize;
+                color: #ffd600; }
+                @media only screen and (min-width: 1200px) {
+                  header .nav-wrap .social-bar ul li a span {
+                    font-size: 16px;
+                    position: absolute;
+                    bottom: -20px;
+                    opacity: 0; } }
+              header .nav-wrap .social-bar ul li a:hover svg {
+                transform: scale(1.2); }
+                header .nav-wrap .social-bar ul li a:hover svg path {
+                  fill: #ffd600; }
+              header .nav-wrap .social-bar ul li a:hover span {
+                display: block; }
+                @media only screen and (min-width: 1200px) {
+                  header .nav-wrap .social-bar ul li a:hover span {
+                    opacity: 1; } }
+            header .nav-wrap .social-bar ul li:nth-child(7) {
+              display: none; }
+  @media only screen and (min-width: 1200px) {
+    header.sticky {
+      position: fixed;
+      top: 0;
+      width: 100%;
+      background-color: #a41115ab;
+      padding-top: 10px;
+      padding-bottom: 10px;
+      opacity: 0.8;
+      backdrop-filter: blur(5px); } }
+  #main main .container {
+    padding-top: 130px;
+    padding-bottom: 50px; }
+    #main main .container .section-wrap {
+      display: flex;
+      flex-flow: column wrap; }
+      @media only screen and (min-width: 1200px) {
+        #main main .container .section-wrap {
+          flex-flow: row wrap; } }
+      #main main .container .section-wrap .main-all-content {
+        grid-area: content;
+        order: 2; }
+        @media only screen and (min-width: 1200px) {
+          #main main .container .section-wrap .main-all-content {
+            width: 65%;
+            order: 1; } }
+        #main main .container .section-wrap .main-all-content .main-section-header {
+          padding-top: 25px; }
+          @media only screen and (min-width: 1200px) {
+            #main main .container .section-wrap .main-all-content .main-section-header {
+              padding-top: 0px; } }
+        #main main .container .section-wrap .main-all-content .para {
+          padding-top: 20px;
+          padding-bottom: 40px; }
+          @media only screen and (min-width: 576px) {
+            #main main .container .section-wrap .main-all-content .para {
+              display: flex;
+              flex-flow: column wrap; } }
+      #main main .container .section-wrap .main-highlight-img {
+        order: 1;
+        text-align: center;
+        width: 100%;
+        animation: float 5.5s infinite ease-in-out;
+        position: relative; }
+        @media only screen and (min-width: 1200px) {
+          #main main .container .section-wrap .main-highlight-img {
+            width: 35%;
+            display: flex;
+            align-items: center;
+            justify-content: flex-end; } }
+        #main main .container .section-wrap .main-highlight-img img {
+          width: 70%;
+          max-width: 325px;
+          transition: all .7s; }
+          @media only screen and (min-width: 1200px) {
+            #main main .container .section-wrap .main-highlight-img img {
+              width: 110%;
+              max-width: 503px; } }
+        #main main .container .section-wrap .main-highlight-img:hover img {
+          transform: scale(1.05);
+          transition: all .7s; }
+@keyframes float {
+  0% {
+    transform: translateY(37px); }
+  50% {
+    transform: translateY(17px); }
+  100% {
+    transform: translateY(37px); } }
+    #main main .container .btn-wrap {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      column-gap: 20px; }
+      @media only screen and (min-width: 1800px) {
+        #main main .container .btn-wrap {
+          padding-top: 30px; } }
+
+#about-cerberus {
+  margin-top: -1.5px;
+  background: transparent url("/web/20230108175034im_/https://www.cerberus.zone/img/about-cerberus/section-bg.png") no-repeat center center;
+  background-size: 100% 100%; }
+  @media only screen and (min-width: 768px) {
+    #about-cerberus {
+      position: relative; } }
+  #about-cerberus #about-cerberus-animation {
+    display: none; }
+    @media only screen and (min-width: 768px) {
+      #about-cerberus #about-cerberus-animation {
+        display: block;
+        position: absolute;
+        left: -50px;
+        top: 0px;
+        width: 650px; } }
+    @media only screen and (min-width: 992px) {
+      #about-cerberus #about-cerberus-animation {
+        width: 630px; } }
+    @media only screen and (min-width: 1200px) {
+      #about-cerberus #about-cerberus-animation {
+        left: 0px;
+        width: 735px; } }
+    @media only screen and (min-width: 1400px) {
+      #about-cerberus #about-cerberus-animation {
+        width: 780px; } }
+    #about-cerberus #about-cerberus-animation img {
+      position: absolute; }
+    #about-cerberus #about-cerberus-animation .about-img {
+      left: 0px;
+      top: 0px; }
+    #about-cerberus #about-cerberus-animation .cerberus {
+      left: 190px;
+      width: 30%;
+      top: 215px; }
+      @media only screen and (min-width: 992px) {
+        #about-cerberus #about-cerberus-animation .cerberus {
+          left: 180px;
+          width: 35%;
+          top: 180px; } }
+      @media only screen and (min-width: 1200px) {
+        #about-cerberus #about-cerberus-animation .cerberus {
+          left: 210px;
+          width: 270px;
+          top: 195px; } }
+      @media only screen and (min-width: 1400px) {
+        #about-cerberus #about-cerberus-animation .cerberus {
+          width: 292px;
+          left: 225px;
+          top: 205px; } }
+  #about-cerberus .container {
+    padding-top: 80px;
+    padding-bottom: 100px; }
+    @media only screen and (min-width: 992px) {
+      #about-cerberus .container {
+        padding-bottom: 130px; } }
+    @media only screen and (min-width: 1200px) {
+      #about-cerberus .container {
+        padding-top: 100px;
+        padding-bottom: 160px; } }
+    @media only screen and (min-width: 1400px) {
+      #about-cerberus .container {
+        padding-top: 120px;
+        padding-bottom: 190px; } }
+    #about-cerberus .container .section-title {
+      text-align: center; }
+    #about-cerberus .container .content-wrap {
+      display: flex;
+      flex-flow: column wrap;
+      padding-top: 30px;
+      padding-bottom: 30px; }
+      @media only screen and (min-width: 768px) {
+        #about-cerberus .container .content-wrap {
+          width: 55%;
+          margin-left: auto; } }
+      @media only screen and (min-width: 992px) {
+        #about-cerberus .container .content-wrap {
+          padding-top: 0px;
+          padding-bottom: 0px; } }
+      @media only screen and (min-width: 992px) {
+        #about-cerberus .container .content-wrap .contents {
+          margin-top: 60px; } }
+      #about-cerberus .container .content-wrap .contents .para {
+        margin-bottom: 10px; }
+        #about-cerberus .container .content-wrap .contents .para:last-child {
+          margin-bottom: 0px; }
+        @media only screen and (min-width: 768px) {
+          #about-cerberus .container .content-wrap .contents .para {
+            font-size: 18px;
+            margin-bottom: 15px; } }
+        @media only screen and (min-width: 1200px) {
+          #about-cerberus .container .content-wrap .contents .para {
+            font-size: 20px;
+            margin-bottom: 20px;
+            max-width: 625px; } }
+        #about-cerberus .container .content-wrap .contents .para span {
+          color: #ffd600;
+          font-weight: 700; }
+      #about-cerberus .container .content-wrap .btn-wrap {
+        margin-top: 30px; }
+        @media only screen and (min-width: 768px) {
+          #about-cerberus .container .content-wrap .btn-wrap {
+            text-align: left; } }
+        @media only screen and (min-width: 992px) {
+          #about-cerberus .container .content-wrap .btn-wrap {
+            margin-top: 68px; } }
+
+#crbrus-benefits {
+  position: relative; }
+  #crbrus-benefits .container {
+    padding-top: 63px;
+    padding-bottom: 77px;
+    position: relative;
+    z-index: 300; }
+    #crbrus-benefits .container .section-title {
+      text-align: center; }
+    #crbrus-benefits .container .card-wrap {
+      display: grid;
+      grid-template-columns: 1fr;
+      max-width: 1040px;
+      margin-top: 50px;
+      margin-left: auto;
+      margin-right: auto;
+      row-gap: 40px; }
+      @media only screen and (min-width: 768px) {
+        #crbrus-benefits .container .card-wrap {
+          grid-template-columns: repeat(3, 1fr);
+          row-gap: 0px; } }
+      #crbrus-benefits .container .card-wrap > div {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center; }
+        #crbrus-benefits .container .card-wrap > div img {
+          width: 200px; }
+        #crbrus-benefits .container .card-wrap > div h4 {
+          font-family: "Blocktopia", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          line-height: 110%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #ffffff;
+          max-width: 324px; }
+          #crbrus-benefits .container .card-wrap > div h4 {
+            font-size: 20px; }
+            @media screen and (min-width: 320px) {
+              #crbrus-benefits .container .card-wrap > div h4 {
+                font-size: calc( 20px + 6 * ( (100vw - 320px) / 672 ) ); } }
+            @media screen and (min-width: 992px) {
+              #crbrus-benefits .container .card-wrap > div h4 {
+                font-size: 26px; } }
+  #crbrus-benefits .bg-shadow {
+    display: none;
+    width: 100%; }
+    @media only screen and (min-width: 576px) {
+      #crbrus-benefits .bg-shadow {
+        display: block;
+        width: 100%;
+        position: absolute;
+        right: 0px;
+        top: 50%; } }
+    @media only screen and (min-width: 768px) {
+      #crbrus-benefits .bg-shadow {
+        top: 0px;
+        width: 60%; } }
+    @media only screen and (min-width: 1200px) {
+      #crbrus-benefits .bg-shadow {
+        width: 70%;
+        top: -170px;
+        height: 634px; } }
+    @media only screen and (min-width: 1400px) {
+      #crbrus-benefits .bg-shadow {
+        top: -310px; } }
+    @media only screen and (min-width: 1200px) {
+      #crbrus-benefits .bg-shadow img {
+        width: 100%; } }
+
+#project-roadmap {
+  background: transparent url("/web/20230108175034im_/https://www.cerberus.zone/img/project-roadmap/project-roadmap.png") no-repeat center center;
+  background-size: cover;
+  padding-top: 60px;
+  padding-bottom: 80px; }
+  @media only screen and (min-width: 992px) {
+    #project-roadmap {
+      padding-top: 122px;
+      padding-bottom: 130px; } }
+  @media only screen and (min-width: 576px) {
+    #project-roadmap {
+      background-size: 135%;
+      padding-top: 90px;
+      padding-bottom: 105px; } }
+  @media only screen and (min-width: 768px) {
+    #project-roadmap {
+      background-size: 120%;
+      padding-top: 105px;
+      padding-bottom: 115px; } }
+  @media only screen and (min-width: 992px) {
+    #project-roadmap {
+      background-size: 110%; } }
+  @media only screen and (min-width: 1200px) {
+    #project-roadmap {
+      background-size: 100% 100%;
+      padding-top: 122px;
+      padding-bottom: 135px; } }
+  #project-roadmap .container {
+    position: relative;
+    z-index: 300; }
+    #project-roadmap .container .section-title {
+      text-align: center; }
+    #project-roadmap .container .roadmap {
+      list-style: none;
+      padding-top: 50px; }
+      @media only screen and (min-width: 576px) {
+        #project-roadmap .container .roadmap {
+          max-width: 500px;
+          margin-left: auto;
+          margin-right: auto; } }
+      @media only screen and (min-width: 768px) {
+        #project-roadmap .container .roadmap {
+          padding-top: 65px; } }
+      @media only screen and (min-width: 992px) {
+        #project-roadmap .container .roadmap {
+          padding-top: 80px; } }
+      #project-roadmap .container .roadmap li {
+        display: flex;
+        flex-flow: column wrap;
+        align-items: center;
+        margin-bottom: 60px; }
+        #project-roadmap .container .roadmap li:last-child {
+          margin-bottom: 0px; }
+        @media only screen and (min-width: 576px) {
+          #project-roadmap .container .roadmap li {
+            flex-flow: row wrap;
+            column-gap: 30px; } }
+        #project-roadmap .container .roadmap li .img {
+          width: 125px; }
+          @media only screen and (min-width: 576px) {
+            #project-roadmap .container .roadmap li .img {
+              width: 143px;
+              position: relative; } }
+          #project-roadmap .container .roadmap li .img img {
+            width: 100%; }
+            @media only screen and (min-width: 576px) {
+              #project-roadmap .container .roadmap li .img img {
+                position: relative;
+                z-index: 100; } }
+          #project-roadmap .container .roadmap li .img .line {
+            display: none; }
+            @media only screen and (min-width: 576px) {
+              #project-roadmap .container .roadmap li .img .line {
+                display: block;
+                width: 4px;
+                position: absolute;
+                left: 50%;
+                bottom: -70px;
+                z-index: 90; } }
+        #project-roadmap .container .roadmap li div h4 {
+          font-family: "Ubuntu", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 28px;
+          line-height: 140%;
+          color: #ffffff; }
+        #project-roadmap .container .roadmap li div h6 {
+          font-family: "Ubuntu", sans-serif;
+          font-style: normal;
+          font-weight: 700;
+          font-size: 20px;
+          line-height: 140%;
+          text-transform: uppercase;
+          color: #fff279; }
+        #project-roadmap .container .roadmap li div .estimate {
+          font-family: "Ubuntu", sans-serif;
+          font-style: normal;
+          font-weight: 400;
+          font-size: 20px;
+          line-height: 140%;
+          text-transform: capitalize;
+          color: white; }
+          #project-roadmap .container .roadmap li div .estimate span {
+            color: #fff279; }
+
+#join-cerberus {
+  padding-top: 40px;
+  padding-bottom: 40px; }
+  @media only screen and (min-width: 768px) {
+    #join-cerberus {
+      padding-top: 60px; } }
+  #join-cerberus .container {
+    position: relative; }
+    #join-cerberus .container .content {
+      position: relative;
+      z-index: 300; }
+    #join-cerberus .container .section-title {
+      text-align: center;
+      background: linear-gradient(180deg, #80ff00 0%, #fef38c 100%);
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+      background-clip: text;
+      text-fill-color: transparent; }
+    #join-cerberus .container .para {
+      max-width: 640px;
+      margin-left: auto;
+      margin-right: auto;
+      text-align: center;
+      padding-bottom: 40px;
+      padding-top: 20px; }
+      @media only screen and (min-width: 992px) {
+        #join-cerberus .container .para {
+          padding-bottom: 60px;
+          max-width: 740px; } }
+    #join-cerberus .container .btn-wrap .btn-fill:before {
+      background-color: #fff; }
+    #join-cerberus .container .btn-wrap .btn-fill:after {
+      background-color: #ffc800; }
+  #join-cerberus .bg-shadow {
+    position: absolute;
+    left: 0%;
+    top: 40px;
+    width: 100%; }
+    @media only screen and (min-width: 576px) {
+      #join-cerberus .bg-shadow {
+        top: -40px; } }
+    @media only screen and (min-width: 768px) {
+      #join-cerberus .bg-shadow {
+        top: -140px; } }
+    @media only screen and (min-width: 1200px) {
+      #join-cerberus .bg-shadow {
+        top: -45px;
+        width: 50%;
+        left: 25%; } }
+    #join-cerberus .bg-shadow img {
+      width: 100%; }
+
+.circle-image {
+  /* Adjust the width and height to fit your image */
+  width: 200px;
+  height: 200px;
+  /* Creates the circle shape */
+  border-radius: 50%;
+  /* Optional: Adds a border */
+  border: 4px solid #fff;
+  /* Optional: Adds a shadow */
+  box-shadow: 0 0 8px rgba(0,0,0,0.5);
+  /* Ensures the image covers the circle area without distortion */
+  object-fit: cover;
+  display: block;
+}
+
+
+footer {
+  padding-bottom: 25px;
+  background: #a41115 url("/web/20230108175034im_/https://www.cerberus.zone/img/footer/footer-bg.png") no-repeat center bottom;
+  background-size: cover;
+  padding-top: 100px; }
+  @media only screen and (min-width: 768px) {
+    footer {
+      background-size: 120% 100%;
+      padding-top: 125px; } }
+  @media only screen and (min-width: 992px) {
+    footer {
+      padding-bottom: 31px;
+      background-size: 110% 100%;
+      padding-top: 140px; } }
+  @media only screen and (min-width: 1200px) {
+    footer {
+      background-size: 105% 100%;
+      padding-top: 150px; } }
+  @media only screen and (min-width: 1400px) {
+    footer {
+      background-size: 100% 100%;
+      padding-top: 170px; } }
+  footer .container .footer-wrap .footer-top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    row-gap: 25px;
+    flex-flow: column wrap; }
+    @media only screen and (min-width: 450px) {
+      footer .container .footer-wrap .footer-top {
+        flex-flow: row wrap;
+        justify-content: space-between; } }
+    @media only screen and (min-width: 768px) {
+      footer .container .footer-wrap .footer-top {
+        display: grid;
+        grid-template-columns: 1fr 2fr; } }
+    @media only screen and (min-width: 1200px) {
+      footer .container .footer-wrap .footer-top {
+        grid-template-columns: 1fr 1.75fr; } }
+    @media only screen and (min-width: 1400px) {
+      footer .container .footer-wrap .footer-top {
+        grid-template-columns: 1.2fr 2fr; } }
+    footer .container .footer-wrap .footer-top img {
+      width: 80px; }
+      @media only screen and (min-width: 576px) {
+        footer .container .footer-wrap .footer-top img {
+          width: 115px; } }
+      @media only screen and (min-width: 768px) {
+        footer .container .footer-wrap .footer-top img {
+          width: 140px; } }
+      @media only screen and (min-width: 992px) {
+        footer .container .footer-wrap .footer-top img {
+          width: 165px; } }
+    footer .container .footer-wrap .footer-top .icons {
+      list-style: none;
+      display: flex;
+      flex-flow: row wrap;
+      column-gap: 20px; }
+      @media only screen and (min-width: 992px) {
+        footer .container .footer-wrap .footer-top .icons {
+          column-gap: 50px; } }
+      footer .container .footer-wrap .footer-top .icons a {
+        display: inline-block;
+        text-decoration: none; }
+        footer .container .footer-wrap .footer-top .icons a img {
+          width: 45px;
+          transition: transform 0.3s; }
+          @media only screen and (min-width: 576px) {
+            footer .container .footer-wrap .footer-top .icons a img {
+              width: 55px; } }
+          @media only screen and (min-width: 768px) {
+            footer .container .footer-wrap .footer-top .icons a img {
+              width: 70px; } }
+          footer .container .footer-wrap .footer-top .icons a img:hover {
+            transform: scale(1.08); }
+      footer .container .footer-wrap .footer-top .icons li:last-child img {
+        width: 48px; }
+        @media only screen and (min-width: 576px) {
+          footer .container .footer-wrap .footer-top .icons li:last-child img {
+            width: 60px; } }
+        @media only screen and (min-width: 768px) {
+          footer .container .footer-wrap .footer-top .icons li:last-child img {
+            width: 81px; } }
+  footer .container p.para {
+    text-align: center;
+    font-family: "Ubuntu", sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 140%;
+    color: #ffffff;
+    margin-top: 10px; }
+
+.full-container #spark-animation {
+  z-index: 200; }
+
+#main {
+  position: initial;
+  z-index: 100; }
+  @media only screen and (min-width: 1200px) {
+    #main {
+      position: relative; } }
+  #main header,
+  #main main,
+  #main #about- {
+    position: relative;
+    z-index: 300; }
+
+#about-cerberus .container {
+  position: relative;
+  z-index: 300; }
+
+/*# sourceMappingURL=style.css.map */
+
+/*
+     FILE ARCHIVED ON 17:50:34 Jan 08, 2023 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 15:57:56 Jan 30, 2024.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots: 0.1
+  exclusion.robots.policy: 0.093
+  cdx.remote: 0.078
+  esindex: 0.005
+  LoadShardBlock: 129.177 (6)
+  PetaboxLoader3.datanode: 207.395 (8)
+  load_resource: 468.322
+  PetaboxLoader3.resolve: 314.424
+  loaddict: 58.396
+*/
