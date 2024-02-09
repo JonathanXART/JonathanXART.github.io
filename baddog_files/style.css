@@ -32,20 +32,20 @@ html {
       #main main .container .section-wrap .main-all-content .main-section-header h1 {
         font-size: 60px; } }
 
-#main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+#main main .container .section-wrap .main-all-content .para, #join-baddog .container .para {
   font-family: "Blocktopia", sans-serif;
   ;
   font-style: normal;
   font-weight: 400;
   line-height: 140%;
   color: #ffffff; }
-  #main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+  #main main .container .section-wrap .main-all-content .para, #join-baddog .container .para {
     font-size: 17px; }
     @media screen and (min-width: 320px) {
-      #main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+      #main main .container .section-wrap .main-all-content .para, #join-baddog .container .para {
         font-size: calc( 17px + 7 * ( (100vw - 320px) / 880 ) ); } }
     @media screen and (min-width: 1200px) {
-      #main main .container .section-wrap .main-all-content .para, #join-cerberus .container .para {
+      #main main .container .section-wrap .main-all-content .para, #join-baddog .container .para {
         font-size: 24px; } }
 
 header .nav-wrap .nav .nav-item a p {
@@ -81,7 +81,7 @@ h2.section-title {
       h2.section-title {
         font-size: 48px; } }
 
-#about-cerberus .container .content-wrap .contents .para {
+#about-baddog .container .content-wrap .contents .para {
   font-family: "Blocktopia", sans-serif;
   font-style: normal;
   font-weight: 400;
@@ -89,10 +89,10 @@ h2.section-title {
   line-height: 140%;
   color: white; }
   @media only screen and (min-width: 576px) {
-    #about-cerberus .container .content-wrap .contents .para {
+    #about-baddog .container .content-wrap .contents .para {
       font-size: 18px; } }
   @media only screen and (min-width: 768px) {
-    #about-cerberus .container .content-wrap .contents .para {
+    #about-baddog .container .content-wrap .contents .para {
       font-size: 20px; } }
 
 @media only screen and (min-width: 576px) {
@@ -258,14 +258,14 @@ body {
           height: 100%; } }
 
 #main {
-  background: transparent url("/web/20230108175034im_/https://www.cerberus.zone/img/main-section/main-sec-bg.jpg") no-repeat center center;
+  background: transparent url("/web/20230108175034im_/https://www.baddog.zone/img/main-section/main-sec-bg.jpg") no-repeat center center;
   background-size: 100% 100%;
   min-height: 100vh;
   height: 100%;
   position: relative; }
   @media only screen and (min-width: 1200px) {
     #main {
-      background-image: url("/web/20230108175034im_/https://www.cerberus.zone/img/main-section/main-xl-bg.png");
+      background-image: url("/web/20230108175034im_/https://www.baddog.zone/img/main-section/main-xl-bg.png");
       overflow-x: hidden;
       display: flex;
       position: relative;
@@ -642,111 +642,111 @@ body {
         #main main .container .btn-wrap {
           padding-top: 30px; } }
 
-#about-cerberus {
+#about-baddog {
   margin-top: -1.5px;
-  background: transparent url("/web/20230108175034im_/https://www.cerberus.zone/img/about-cerberus/section-bg.png") no-repeat center center;
+  background: transparent url("/web/20230108175034im_/https://www.baddog.zone/img/about-baddog/section-bg.png") no-repeat center center;
   background-size: 100% 100%; }
   @media only screen and (min-width: 768px) {
-    #about-cerberus {
+    #about-baddog {
       position: relative; } }
-  #about-cerberus #about-cerberus-animation {
+  #about-baddog #about-baddog-animation {
     display: none; }
     @media only screen and (min-width: 768px) {
-      #about-cerberus #about-cerberus-animation {
+      #about-baddog #about-baddog-animation {
         display: block;
         position: absolute;
         left: -50px;
         top: 0px;
         width: 650px; } }
     @media only screen and (min-width: 992px) {
-      #about-cerberus #about-cerberus-animation {
+      #about-baddog #about-baddog-animation {
         width: 630px; } }
     @media only screen and (min-width: 1200px) {
-      #about-cerberus #about-cerberus-animation {
+      #about-baddog #about-baddog-animation {
         left: 0px;
         width: 735px; } }
     @media only screen and (min-width: 1400px) {
-      #about-cerberus #about-cerberus-animation {
+      #about-baddog #about-baddog-animation {
         width: 780px; } }
-    #about-cerberus #about-cerberus-animation img {
+    #about-baddog #about-baddog-animation img {
       position: absolute; }
-    #about-cerberus #about-cerberus-animation .about-img {
+    #about-baddog #about-baddog-animation .about-img {
       left: 0px;
       top: 0px; }
-    #about-cerberus #about-cerberus-animation .cerberus {
+    #about-baddog #about-baddog-animation .baddog {
       left: 190px;
       width: 30%;
       top: 215px; }
       @media only screen and (min-width: 992px) {
-        #about-cerberus #about-cerberus-animation .cerberus {
+        #about-baddog #about-baddog-animation .baddog {
           left: 180px;
           width: 35%;
           top: 180px; } }
       @media only screen and (min-width: 1200px) {
-        #about-cerberus #about-cerberus-animation .cerberus {
+        #about-baddog #about-baddog-animation .baddog {
           left: 210px;
           width: 270px;
           top: 195px; } }
       @media only screen and (min-width: 1400px) {
-        #about-cerberus #about-cerberus-animation .cerberus {
+        #about-baddog #about-baddog-animation .baddog {
           width: 292px;
           left: 225px;
           top: 205px; } }
-  #about-cerberus .container {
+  #about-baddog .container {
     padding-top: 80px;
     padding-bottom: 100px; }
     @media only screen and (min-width: 992px) {
-      #about-cerberus .container {
+      #about-baddog .container {
         padding-bottom: 130px; } }
     @media only screen and (min-width: 1200px) {
-      #about-cerberus .container {
+      #about-baddog .container {
         padding-top: 100px;
         padding-bottom: 160px; } }
     @media only screen and (min-width: 1400px) {
-      #about-cerberus .container {
+      #about-baddog .container {
         padding-top: 120px;
         padding-bottom: 190px; } }
-    #about-cerberus .container .section-title {
+    #about-baddog .container .section-title {
       text-align: center; }
-    #about-cerberus .container .content-wrap {
+    #about-baddog .container .content-wrap {
       display: flex;
       flex-flow: column wrap;
       padding-top: 30px;
       padding-bottom: 30px; }
       @media only screen and (min-width: 768px) {
-        #about-cerberus .container .content-wrap {
+        #about-baddog .container .content-wrap {
           width: 55%;
           margin-left: auto; } }
       @media only screen and (min-width: 992px) {
-        #about-cerberus .container .content-wrap {
+        #about-baddog .container .content-wrap {
           padding-top: 0px;
           padding-bottom: 0px; } }
       @media only screen and (min-width: 992px) {
-        #about-cerberus .container .content-wrap .contents {
+        #about-baddog .container .content-wrap .contents {
           margin-top: 60px; } }
-      #about-cerberus .container .content-wrap .contents .para {
+      #about-baddog .container .content-wrap .contents .para {
         margin-bottom: 10px; }
-        #about-cerberus .container .content-wrap .contents .para:last-child {
+        #about-baddog .container .content-wrap .contents .para:last-child {
           margin-bottom: 0px; }
         @media only screen and (min-width: 768px) {
-          #about-cerberus .container .content-wrap .contents .para {
+          #about-baddog .container .content-wrap .contents .para {
             font-size: 18px;
             margin-bottom: 15px; } }
         @media only screen and (min-width: 1200px) {
-          #about-cerberus .container .content-wrap .contents .para {
+          #about-baddog .container .content-wrap .contents .para {
             font-size: 20px;
             margin-bottom: 20px;
             max-width: 625px; } }
-        #about-cerberus .container .content-wrap .contents .para span {
+        #about-baddog .container .content-wrap .contents .para span {
           color: #ffd600;
           font-weight: 700; }
-      #about-cerberus .container .content-wrap .btn-wrap {
+      #about-baddog .container .content-wrap .btn-wrap {
         margin-top: 30px; }
         @media only screen and (min-width: 768px) {
-          #about-cerberus .container .content-wrap .btn-wrap {
+          #about-baddog .container .content-wrap .btn-wrap {
             text-align: left; } }
         @media only screen and (min-width: 992px) {
-          #about-cerberus .container .content-wrap .btn-wrap {
+          #about-baddog .container .content-wrap .btn-wrap {
             margin-top: 68px; } }
 
 #crbrus-benefits {
@@ -820,7 +820,7 @@ body {
         width: 100%; } }
 
 #project-roadmap {
-  background: transparent url("/web/20230108175034im_/https://www.cerberus.zone/img/project-roadmap/project-roadmap.png") no-repeat center center;
+  background: transparent url("/web/20230108175034im_/https://www.baddog.zone/img/project-roadmap/project-roadmap.png") no-repeat center center;
   background-size: cover;
   padding-top: 60px;
   padding-bottom: 80px; }
@@ -924,25 +924,25 @@ body {
           #project-roadmap .container .roadmap li div .estimate span {
             color: #fff279; }
 
-#join-cerberus {
+#join-baddog {
   padding-top: 40px;
   padding-bottom: 40px; }
   @media only screen and (min-width: 768px) {
-    #join-cerberus {
+    #join-baddog {
       padding-top: 60px; } }
-  #join-cerberus .container {
+  #join-baddog .container {
     position: relative; }
-    #join-cerberus .container .content {
+    #join-baddog .container .content {
       position: relative;
       z-index: 300; }
-    #join-cerberus .container .section-title {
+    #join-baddog .container .section-title {
       text-align: center;
       background: linear-gradient(180deg, #80ff00 0%, #fef38c 100%);
       -webkit-background-clip: text;
       -webkit-text-fill-color: transparent;
       background-clip: text;
       text-fill-color: transparent; }
-    #join-cerberus .container .para {
+    #join-baddog .container .para {
       max-width: 640px;
       margin-left: auto;
       margin-right: auto;
@@ -950,30 +950,30 @@ body {
       padding-bottom: 40px;
       padding-top: 20px; }
       @media only screen and (min-width: 992px) {
-        #join-cerberus .container .para {
+        #join-baddog .container .para {
           padding-bottom: 60px;
           max-width: 740px; } }
-    #join-cerberus .container .btn-wrap .btn-fill:before {
+    #join-baddog .container .btn-wrap .btn-fill:before {
       background-color: #fff; }
-    #join-cerberus .container .btn-wrap .btn-fill:after {
+    #join-baddog .container .btn-wrap .btn-fill:after {
       background-color: #ffc800; }
-  #join-cerberus .bg-shadow {
+  #join-baddog .bg-shadow {
     position: absolute;
     left: 0%;
     top: 40px;
     width: 100%; }
     @media only screen and (min-width: 576px) {
-      #join-cerberus .bg-shadow {
+      #join-baddog .bg-shadow {
         top: -40px; } }
     @media only screen and (min-width: 768px) {
-      #join-cerberus .bg-shadow {
+      #join-baddog .bg-shadow {
         top: -140px; } }
     @media only screen and (min-width: 1200px) {
-      #join-cerberus .bg-shadow {
+      #join-baddog .bg-shadow {
         top: -45px;
         width: 50%;
         left: 25%; } }
-    #join-cerberus .bg-shadow img {
+    #join-baddog .bg-shadow img {
       width: 100%; }
 
 .circle-image {
@@ -994,7 +994,7 @@ body {
 
 footer {
   padding-bottom: 25px;
-  background: #a41115 url("/web/20230108175034im_/https://www.cerberus.zone/img/footer/footer-bg.png") no-repeat center bottom;
+  background: #a41115 url("/web/20230108175034im_/https://www.baddog.zone/img/footer/footer-bg.png") no-repeat center bottom;
   background-size: cover;
   padding-top: 100px; }
   @media only screen and (min-width: 768px) {
@@ -1100,7 +1100,7 @@ footer {
     position: relative;
     z-index: 300; }
 
-#about-cerberus .container {
+#about-baddog .container {
   position: relative;
   z-index: 300; }
 
