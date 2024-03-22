@@ -231,7 +231,9 @@ body {
   width: initial; }
 
 .btn-wrap {
-  text-align: center; }
+  text-align: center;
+  position: relative;
+  left: -250px; }
 
 .full-container {
   position: relative; }
